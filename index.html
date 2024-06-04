@@ -5,22 +5,9 @@
 	<meta name="description" content="Page d'Accueil du portfolio de la photographe Nina Carducci de Bordeaux.
 	Je suis photographe de mariage, photographe d’événements, photographe de portrait, photographe pour les professionnels.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="preload" as="image" href="./assets/images/slider/ryoji/ryoji-iwata.webp">
-	<link rel="preload" as="image" href="./assets/images/slider/edward/edward-cisneros.webp">
-	<link rel="preload" as="image" href="/assets/images/nina-photos/nina.webp">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css" defer>
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"> -->
+	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.css" async>
 	<meta charset="UTF-8">
-	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-	<script  defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script  src="./assets/maugallery.js" ></script>
-	<script  src="./assets/scripts.js"></script>
-	
-
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
@@ -40,12 +27,12 @@
 			"Monday at Friday 10:00-19:00"
 		  ]
 		
-			}
+		}
 		</script>
 		
 		<meta property="og:site_name" content="Nina Carducci, Photographe" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="url" />
+		<meta property="og:type" content="siteweb" />
+		<meta property="og:url" content="https://nassimfadili.github.io/debbugprojet4/" />
 		<meta property="og:description" content="Je suis photographe sur Bordeaux, je réalise vos photos de mariage, d'evenements, de portrait pour les particuliers et professionnels" />
 		<meta property="og:image" content="nina webp"/>
 
@@ -53,7 +40,7 @@
 		<meta name="twitter:title" content="Nina Carducci, Photographe" />
 		<meta name="twitter:description" content="Je suis photographe sur Bordeaux, je réalise vos photos de mariage, d'evenements, de portrait pour les particuliers et professionnels"/>
 		<meta name="twitter:image" content="image nina.webp" />
-		<meta name="twitter:url" content="url" />
+		<meta name="twitter:url" content="https://nassimfadili.github.io/debbugprojet4/" />
 </head>
 
 
@@ -68,17 +55,10 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
-              Instagram
-              <img src="assets/images/instagram.png" alt="Instagram"/>
-            </a>
-          </li>
+            <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"></a><img src="assets/images/instagram.webp" alt="Instagram"/></li>
         </ul>
       </nav>
     </div>
-  </header>
-
-  <main>
     <section id="carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -88,13 +68,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./assets/images/slider/ryoji/ryoji-iwata.webp" srcset="./assets/images/slider/ryoji/ryoji-iwata300.webp 300w, ./assets/images/slider/ryoji/ryoji-iwata1140.webp 1140w, ./assets/images/slider/ryoji/ryoji-iwata1580.webp 1580w, ./assets/images/slider/ryoji/ryoji-iwata1920.webp 1920w, ./assets/images/slider/ryoji/ryoji-iwata2048.webp 2048w" sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)" class="d-block w-100" alt="un homme qui traverse un passage piéton"/>
+            <img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"class="d-block w-100" alt="un homme qui traverse un passage piéton"/>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/slider/nicholas/nicholas-green.webp" class="d-block w-100" alt="une soirée"/>
+            <img src="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash.webp" class="d-block w-100" alt="une soirée"/>
           </div>
           <div class="carousel-item">
-            <img src="./assets/images/slider/edward/edward-cisneros.webp" class="d-block w-100" alt="deux mariés qui s'embrassent"/>
+            <img src="./assets/images/slider/edward-cisneros-3-h6-1npdgw-unsplash.webp" class="d-block w-100" alt="deux mariés qui s'embrassent"/>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -107,10 +87,11 @@
         </button>
       </div>
     </section>
-
+  </header>
+  <main>
     <section id="about">
       <div class="picture left">
-        <img src="./assets/images/nina-photos/nina.webp" alt="photo de Nina, la photographe" srcset="./assets/images/nina-photos/nina256.webp 256w, ./assets/images/nina-photos/nina560.webp 560w, ./assets/images/nina-photos/nina890.webp 890w, ./assets/images/nina-photos/nina1120.webp 1120w" sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"/>
+        <img src="./assets/images/nina.webp" alt="photo de Nina, la photographe"/>
       </div>
       <div id="about-me">
         <h2 class="about-me__title">About Me</h2>
@@ -127,15 +108,15 @@
       <h2 class="title">Portfolio</h2>
       <div class="container py-3">
         <div class="gallery" style="display: none">
-          <img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash.webp" srcset="./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash224.webp 224w, ./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash448.webp 448w, ./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash608.webp 608w, ./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash728.webp 728w, ./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash930.webp 930w, ./assets/images/gallery/concerts/aaron/aaron-paul-wnX-fXzB6Cw-unsplash1090.webp 1090w" sizes="(min-width: 1400px) 424px, (min-width: 1200px) 364px, (min-width: 1000px) 304px, (min-width: 780px) 224px, (min-width: 580px) 254px, calc(100vw - 16px)" alt="concerts"/>
-          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="homme en costard les bras croisés"/>
-          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="réunion"/>
-          <img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="mains des mariés"/>
-          <img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp" alt="portrait d'un homme"/>
-          <img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp" alt="photos officiel d'un mariage"/>
-          <img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="portrait d'une femme"/>
-          <img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="chanteur sur scène"/>
-          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.jpg" alt="femme sur un ordinateur"/>
+          <img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="concerts"/>
+          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="homme en costard les bras croisés"/>
+          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="réunion"/>
+          <img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="mains des mariés"/>
+          <img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="portrait d'un homme"/>
+          <img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="photos officiel d'un mariage"/>
+          <img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash.webp" alt="portrait d'une femme"/>
+          <img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="chanteur sur scène"/>
+          <img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="femme sur un ordinateur"/>
         </div>
       </div>
       <div class="quote">
@@ -196,7 +177,8 @@
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </section>
-
+  </main>
+  <footer>
     <section id="contact">
       <div class="container">
         <div class="form-container">
@@ -217,10 +199,11 @@
         </div>
       </div>
     </section>
-  </main>
-
-  <footer>
     <p>&copy; 2024 Nina Carducci. Tous droits réservés.</p>
   </footer>
 </body>
+  <script  src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script  src="./assets/maugallery.js" ></script>
+	<script  src="./assets/scripts.js"></script>
 </html>
